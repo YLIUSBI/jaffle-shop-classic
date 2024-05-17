@@ -1,0 +1,15 @@
+jaffle_shop:
+  outputs:
+    dev:
+      account: XMMREND-GU63202
+      database: SMOOTHIES
+      # user: Romain.LOPEZ <----- Old Value
+      user: YLIUSBI2
+      password: 1993113uU
+      # authenticator: externalbrowser
+      role: SYSADMIN
+      schema: DBTDEV
+      threads: 4
+      type: snowflake
+      warehouse: COMPUTE_WH
+  target: dev
